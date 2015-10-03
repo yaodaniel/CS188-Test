@@ -11,3 +11,9 @@
 /log/*
 !/log/.keep
 /tmp
+
+/config/database.yml
+
+# these should all be checked in to normalise the environment:
+# Gemfile.lock, .ruby-version, .ruby-gemset
+config/database.yml
